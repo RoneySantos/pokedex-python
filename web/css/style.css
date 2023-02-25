@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0; /* Zera a margem */
+    padding: 0; /* define a distância entre o conteúdo de um elemento e suas bordas */
+    box-sizing: border-box; /* usada p/ calcular larguras (widths) e alturas (heights) */
+    font-family: 'Oxanium', cursive; /* Fonte */
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(to bottom, #eeece9, #cecccc);
+    min-height: 100vh;
+}
+
+main{
+    background-color: whitesmoke;
+    display: inline-block; /* possui propriedades do bloco e inline */
+    margin-top: 2%; /* distancia 2% do topo */
+    padding: 15px;
+    position: relative; /* as demais tags com posicao abosula, respeita mudanca */
+}
+
+.pokedex {
+    width: 100%; /* ocupa todo o espaco disponivel no espaco usado */
+    max-width: 425px; /* fixa o tamanho da imagem */
+}
+
+.pokemon__image {
+    position: absolute;
+    bottom: 62%; /* usar porcetagem ao inves de pixel pois a main e a pokedex caso tenha outro tamanho, a porcetagem acompanha */
+    left: 40%;
+    transform: translate(-10%, 05%); /* x, y posicao */
+    height: 30%; /* Altura */
+}
