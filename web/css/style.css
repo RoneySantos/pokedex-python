@@ -33,3 +33,76 @@ main{
     transform: translate(-10%, 05%); /* x, y posicao */
     height: 30%; /* Altura */
 }
+
+.pokemon__data {
+    position: absolute;
+    font-weight: 400;
+    color: #aaa;
+    top: 61%;
+    left: 35%;
+    font-size: clamp(8px, 2vw, 20px);  /* Recebe 3 valores min, mid, max */
+}
+
+.pokemon_name{
+    color: #3a444d;
+    text-transform: capitalize
+}
+
+.pokemon_number{
+    color: #3a444d;
+}
+
+.test{
+    top: 10%;
+    left: 30%;
+}
+
+.form{
+    /* Not necessary format
+    position: absolute;
+    background-color: gradient;
+    whidth: 100%
+    top: 10%;
+    left: 30%; */
+}
+
+.input_search{
+    margin-top: 2%;
+    width: 50%;
+    padding: 0,5%
+    border: 3px solid #333;
+    border-radius: 3px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(8px, 2vw, 20px);  /* get 3 values min, mid, max */
+    box-shadow: -3px 4px 0 #888; /* x y sizeofshadow color*/
+    text-align: center;
+}
+
+.buttons{
+    /*margin-top: %;
+    bottom: 50%;
+    display: flex;
+    width: 40%;
+    margin: auto;
+    position: absolute;
+    text-align: center */
+
+    text-align: center;
+
+    width: 100%;
+    height: 80%;
+
+    /* display: flex;
+    gap: 10px;
+    transform: translate(-5%, 0) */
+}
+
+button{
+    width: 50%;
+    font-weight: 600
+}
+
+.button.active{
+    background-color: gradient;
+}
