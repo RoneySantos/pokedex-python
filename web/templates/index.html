@@ -10,21 +10,24 @@
 </head>
 <body>
     <main>
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png" alt="pokemon" class="pokemon__image">
+
+        <img src="{{photo}}" alt="pokemon" class="pokemon__image">
 
         <h1 class="pokemon__data">
-            <span class="pokemon_number">149</span> -
-            <span class="pokemon_name">Dragonite</span>
+            <label>{{number}}</label> -
+            <label>{{name}}</label>
+            
         </h1>
 
         <img src="static/images/pokedex6_resized.png" alt="Pokedex" class="pokedex">
     </main>
     <main2>
 
-        <form class="form">
+        <form class="form" action="search_page" method="POST">
             <input
                 type="search"
                 class="input_search"
+                name="name_pokemon"
                 placeholder="Name or Number"
                 required
             />
