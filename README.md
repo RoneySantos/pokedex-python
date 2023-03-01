@@ -1,6 +1,6 @@
 # Pokedex in Python
 
-This is a prototype to create a Pokedex using python.  <br />
+This is a prototype to create a Pokedex using python, fetching data from Pokemon via api (http://pokeapi.co).  <br />
 At the moment, this aplication is operatinal but many features will include. <br /> <br />
 
 The aplication is in folder **web/**, to run is necessary two modules (flask and requests) and execute pokedex.py <br /> <br />
